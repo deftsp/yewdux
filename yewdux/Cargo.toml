@@ -17,7 +17,7 @@ future = ["yewtil"]
 
 [dependencies]
 serde = { version = "1.0.114", features = ["rc"] }
-yew = { git = "https://github.com/yewstack/yew.git" }
-yew-services = { git = "https://github.com/yewstack/yew.git" }
-yewtil = {  git = "https://github.com/yewstack/yew.git", optional = true }
+yew = { git = "https://github.com/yewstack/yew", rev = "246bc59" }
+yew-services = { git = "https://github.com/yewstack/yew", rev = "246bc59" }
+yewtil = { git = "https://github.com/yewstack/yew", rev = "246bc59", optional = true }
 
